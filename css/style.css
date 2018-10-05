@@ -45,11 +45,11 @@ BEGIN THEME STYLESHEET
 }
 
 ::-moz-selection {
- background: #FFD600;
+ background: #252786;
  color: white;
 }
 ::selection {
-	background: #4682B4;
+	background: #101113;
 	color: white;
 }
 a, a:visited, a:hover {
@@ -153,7 +153,7 @@ img {
 	height: auto;
 }
 a {
-	color: #FFD600;
+	color: #252786;
 	text-decoration: none;
 	outline: 0;
 	-webkit-transition: all 0.2s ease;
@@ -163,7 +163,7 @@ a {
 	transition: all 0.2s ease;
 }
 .highlight {
-	color: #4682B4;
+	color: #101113;
 }
 a:hover, a:focus {
 	color: #666666;
@@ -296,9 +296,10 @@ nav.dark {
 	background: #151515;
 	border-bottom: 1px solid #000000;	
 }
+
 /*== LIGHT NAVIGATION ==*/
 nav.light {
-	background: #ffffff;
+	background: #0f0f0f;
 	box-shadow: 0px 4px 15px rgba(0,0,0,0.07);
 	border-bottom: 1px solid #f0f0f0;
 	transition: all 0.5s;
@@ -307,8 +308,7 @@ nav.light {
 	-o-transition: all 0.5s;
 }
 nav.light.sticky {
-	background: #ffffff;
-	background: rgba(255,255,255,0.95);
+	background: #0f0f0f;
 }
 
 
@@ -362,7 +362,7 @@ nav .container .twelve.columns {
 .main-menu a {
 	font-family: 'BebasNeueRegular', sans-serif;
 	font-size: 22px;
-	color: white;
+	color: #505050;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -370,14 +370,14 @@ nav.light .main-menu a {
 	color: inherit;
 }
 nav.light .main-menu a:hover, nav.dark .main-menu a:hover {
-	color: #FFD600;
+	color: #ababab;
 	transition: color 0.5s;
 	-moz-transition: color 0.5s;
 	-webkit-transition: color 0.5s;
 	-o-transition: color 0.5s;
 }
 nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
-	color: #FFD600;
+	color: #ababab;
 }
 .main-menu a i {
 	margin-right: 3px;
@@ -413,7 +413,7 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 	color: #ffffff;
 }
 .home1 .slabtextdone .slabtext.second-child {
-	background: #FFD600;
+	background: #252786;
 	padding: 15px 10px 0;
 	display: inline-block;
 	width: auto;
@@ -494,7 +494,7 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 .home3 .slabtextdone .slabtext.second-child {
 	display: inline-block;
 	width: auto;
-	color: #FFD600;
+	color: #252786;
 	text-shadow: none;
 	overflow: hidden;	
 }
@@ -523,8 +523,8 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 .home4 .home-quote {
 	padding: 10px 10px 0;
 	background: rgba(255, 255, 255, 0.63);
-	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4Cffffff, endColorstr=#4Cffffff);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4Cffffff, endColorstr=#4Cffffff);	
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#101113, endColorstr=#101113);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#101113, endColorstr=#101113);	
 	box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.32);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -539,7 +539,7 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 	box-shadow: 0px 0px 0px 20px rgba(255, 255, 255, 0.32);
 }
 .home4 .slabtextdone .slabtext.second-child {
-	background: #FFD600;
+	background: #252786;
 	padding: 15px 10px 0;
 	display: inline-block;
 	width: auto;
@@ -624,7 +624,7 @@ p.quote {
 	margin: 0 5px;
 }
 .parallax .quote i {
-	color: #FFD600;
+	color: #252786;
 }
 .quote-author {
 	height: 24px;
@@ -663,7 +663,7 @@ p.quote {
 	color: #ffffff;
 	display: inline-block;
 	padding: 17px;
-	background: #FFD600;
+	background: #252786;
 	border-radius: 50%;
 	box-shadow: 0px 0px 0px 4px rgb(255, 255, 255);
 }
@@ -728,7 +728,7 @@ p.quote {
 	color: #ffffff;
 	display: inline-block;
 	padding: 17px;
-	background: #FFD600;
+	background: #252786;
 	border-radius: 50%;
 	box-shadow: 0px 0px 0px 4px rgb(255, 255, 255);
 }
@@ -762,7 +762,7 @@ p.quote {
 	background-image: url(../images/parallax/parallax4.jpg);
 }
 .bg5 {
-background-image: url(../images/parallax/parallax5.jpg);
+background-image: url(../images/parallax/indexBackground.jpg);
 }
 .bg6 {
 background-image: url(../images/parallax/parallax6.jpg);
@@ -774,12 +774,12 @@ background-image: url(../images/parallax/parallax6.jpg);
 .color-block {
 	width: 100%;
 	height: 450px;
-	background-color: #FFD600;
-	background: -moz-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -webkit-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -o-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -ms-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
+	background-color: #252786;
+	background: -moz-radial-gradient(center center, circle cover, #252786 0%, #E2BE01 100%);
+	background: -webkit-radial-gradient(center center, circle cover, #252786 0%, #E2BE01 100%);
+	background: -o-radial-gradient(center center, circle cover, #252786 0%, #E2BE01 100%);
+	background: -ms-radial-gradient(center center, circle cover, #252786 0%, #E2BE01 100%);
+	background: radial-gradient(center center, circle cover, #252786 0%, #E2BE01 100%);
 	position: relative;
 	overflow: hidden;
 	color: #ffffff;
@@ -832,10 +832,10 @@ background-image: url(../images/parallax/parallax6.jpg);
 	line-height: 0.8;
 	display: inline-block;
 	padding: 10px 10px 3px;
-	background: #4682B4;
-	color: #fff;
+	background: #101113;
+	color: #ababab;
 	border: 4px solid #ffffff;
-	box-shadow: 0px 0px 0px 3px #4682B4;
+	box-shadow: 0px 0px 0px 3px #101113;
 }
 .multipage .title h1 {
 	margin: 60px 0 40px;
@@ -865,18 +865,18 @@ background-image: url(../images/parallax/parallax6.jpg);
 	z-index:10;
 }
 .home-gradient {
-	background-color: #FFD600;
-	background: -moz-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -webkit-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -o-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -ms-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
+	background-color: #252786;
+	background: -moz-radial-gradient(center center, circle cover, #252786 0%, #E2BE01 100%);
+	background: -webkit-radial-gradient(center center, circle cover, #252786 0%, #E2BE01 100%);
+	background: -o-radial-gradient(center center, circle cover, #252786 0%, #E2BE01 100%);
+	background: -ms-radial-gradient(center center, circle cover, #252786 0%, #E2BE01 100%);
+	background: radial-gradient(center center, circle cover, #252786 0%, #E2BE01 100%);
 }
 .home-parallax {
-	background: url(../images/parallax/parallax5.jpg) fixed;
+	background: url(../images/parallax/indexBackground.jpg) fixed;
 	background-size: 100% cover;
 	background-position: center top;
-	background-color: #FFD600;
+	background-color: #252786;
 	background-repeat: no-repeat;
 }
 /*======== HOME LOGO ========*/	
@@ -974,7 +974,7 @@ background-image: url(../images/parallax/parallax6.jpg);
 	border: 2px solid;
 }
 #filters ul li a:hover h3, #filters ul li a.active h3 {
-	color: #FFD600;
+	color: #252786;
 }
 /*==== PORTFOLIO AJAX NAVIGATION =====*/
 #project-navigation {
@@ -1021,10 +1021,10 @@ background-image: url(../images/parallax/parallax6.jpg);
 	transition: all 0.3s ease-in-out;
 }
 #project-navigation ul li#prevProject a:hover, #project-navigation ul li#nextProject a:hover {
-	background-color: #FFD600;
+	background-color: #252786;
 }
 #project-navigation ul li a:hover {
-	background-color: #FFD600;
+	background-color: #252786;
 }
 #project-navigation ul li a.disabled, #project-navigation ul li a.disabled:hover {
 	cursor: default;
@@ -1050,7 +1050,7 @@ background-image: url(../images/parallax/parallax6.jpg);
 	border-radius: 3px;
 }
 #closeProject a:hover {
-	background: #FFD600;
+	background: #252786;
 }
 #closeProject a i {
 	font-size: 14px;
@@ -1179,7 +1179,7 @@ background-image: url(../images/parallax/parallax6.jpg);
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	background: #FFD600;
+	background: #252786;
 }
 .portfolio > a, .portfolio > a:hover {
 	color: #ffffff;
@@ -1305,7 +1305,7 @@ background-image: url(../images/parallax/parallax6.jpg);
 	color: #151515;
 }
 .post-title a:hover {
-	color: #FFD600;
+	color: #252786;
 }
 .post-tags {
 	margin-top: 20px;
@@ -1338,7 +1338,7 @@ background-image: url(../images/parallax/parallax6.jpg);
 	text-decoration: none;
 }
 .post-tags li a:hover {
-	color: #FFD600;
+	color: #252786;
 }
 .post-meta {
 	font-size: 11px;
@@ -1380,7 +1380,7 @@ background-image: url(../images/parallax/parallax6.jpg);
 	text-decoration: none;
 }
 .tags-list li a:hover {
-	color: #FFD600;
+	color: #252786;
 }
 .blog-tweet {
 	font-size: 11px;
@@ -1415,12 +1415,12 @@ background-image: url(../images/parallax/parallax6.jpg);
 	color: #151515;
 }
 .pages li a.current {
-	border-top: 2px solid #FFD600;
-	border-bottom: 2px solid #FFD600;
+	border-top: 2px solid #252786;
+	border-bottom: 2px solid #252786;
 	color: #1c1f26;
 }
 .pages li a:hover {
-	color: #FFD600;
+	color: #252786;
 }
 .pagination a.previous, .pagination a.next {
 	height: 24px;
@@ -1437,7 +1437,7 @@ background-image: url(../images/parallax/parallax6.jpg);
 	text-align: center;
 }
 .pagination a.previous:hover, .pagination a.next:hover {
-	background-color: #FFD600;
+	background-color: #252786;
 	color: white;
 }
 .pagination a.previous {
@@ -1573,7 +1573,7 @@ background-image: url(../images/parallax/parallax6.jpg);
 	width: 100%;
 	margin-top: 30px;
 	padding: 40px 0;
-	background: #4682B4;
+	background: #101113;
 	color: rgba(0, 0, 0, 0.7);
 	font-size: 11px;
 }
@@ -1861,7 +1861,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 
 
 .home-parallax2{
-     background: url(../images/parallax/parallax5.jpg) fixed;
+     background: url(../images/parallax/indexBackground.jpg) fixed;
      background-size: cover;
 }
 
@@ -1884,7 +1884,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 /* ------------------------------------------------------------------------ */
 
 nav.colored, nav.light.colored {
-	background: #ffd600;
+	background: #252786;
 	box-shadow: 0px 4px 15px rgba(0,0,0,0.07);
 	border-bottom: 0px;	
 }

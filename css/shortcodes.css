@@ -18,7 +18,7 @@
 	display: block;
 	padding: 11px 15px 7px;
 	color: inherit;
-	background-color: #4682B4;
+	background-color: #101113;
 }
 .accordion .accordion-title a i {
 	font-size: 22px;
@@ -97,10 +97,10 @@
 .alert-message.info {
 	background-color: #dbe9f3;
 	border-color: #9fc2dd;
-	color: #468bbf;
+	color: #101113;
 }
 alert-message.info a {
-	color: #468bbf;
+	color: #101113;
 }
 .alert-message p {
 	margin: 0;
@@ -141,7 +141,7 @@ alert-message.info a {
 	transition: all 0.2s;
 	color: #ffffff;
 	cursor: pointer;
-	background-color: #FFD600;
+	background-color: #656565;
 	height: 40px;
 	line-height: 40px !important;
 }
@@ -157,7 +157,7 @@ alert-message.info a {
 	border-top: 1px solid rgba(0, 0, 0, 0.04) !important;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.04) !important;
 	border-right: 1px solid rgba(0, 0, 0, 0.04) !important;
-	border-left: 3px solid #FFD600;
+	border-left: 3px solid #656565;
 }
 
 .callout .callout-button {
@@ -287,7 +287,7 @@ blockquote {
 blockquote p {
 	margin: 0 !important;
 	padding: 5px 0 5px 15px;
-	border-left: 4px solid #FFD600;
+	border-left: 4px solid #656565;
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 	font-weight: lighter;
@@ -308,13 +308,13 @@ blockquote p {
 .pullquote.align-left {
 	float: left;
 	padding: 0px 15px;
-	border-left: 4px solid #FFD600;
+	border-left: 4px solid #656565;
 }
 .pullquote.align-right {
 	float: right;
 	padding: 0px 15px;
 	text-align: right;
-	border-right: 4px solid #FFD600;
+	border-right: 4px solid #656565;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -338,7 +338,7 @@ blockquote p {
 }
 .service-box:hover {
 	box-shadow: 0px 1px 12px rgba(0,0,0,0.3);
-	background: #FFD600;
+	background: #656565;
 	color: #ffffff;
 	border: 1px solid transparent;	
 }
@@ -352,16 +352,16 @@ blockquote p {
 	display: block;
 	text-align: center;
 	border-radius: 50%;
-	background: #ffd600;
+	background: #656565;
 	color: #ffffff;
 	border: 4px solid #ffffff;
-	box-shadow: 0px 0px 0px 3px #ffd600;
+	box-shadow: 0px 0px 0px 3px #656565;
 }
 .service-box:hover .service-icon {
-    border: 4px solid #ffd600;
+    border: 4px solid #656565;
     box-shadow: 0px 0px 0px 3px #ffffff;
     background: #ffffff;
-    color: #ffd600;
+    color: #656565;
 }
 .service-description {
     margin-bottom: 30px;
@@ -392,7 +392,7 @@ blockquote p {
 .service-features .img-container {
 	padding: 25px 45px;
 	border-radius: 3px;
-	background: #FFD600;
+	background: #656565;
 	width: 120px;
 	margin: 0 auto;
 	position: relative;
@@ -406,7 +406,7 @@ blockquote p {
 	position: absolute;
 	width: 0;
 	height: 0;
-	border: 15px solid #ffd600;
+	border: 15px solid #656565;
 	border-bottom: 0px solid transparent !important;
 	border-right: 20px solid transparent !important;
 	border-left: 20px solid transparent !important;
@@ -426,7 +426,7 @@ blockquote p {
 	position: relative;
 }
 .skillbar .skill-percentage {
-	background: #FFD600;
+	background: #656565;
 	display: block;
 	width: 0%;
 	height: 25px;
@@ -477,7 +477,7 @@ blockquote p {
 	background: #ffffff;
 	border-bottom-color: #fff;
 	font-weight:bold;
-	box-shadow: 0px -3px 0px 0px #FFD600;
+	box-shadow: 0px -3px 0px 0px #656565;
 }
 .tab a.selected i {
 }
@@ -546,7 +546,7 @@ blockquote p {
 	background:#ffffff;	
 }
 .team-member:hover .team-desc {
-	background:#ffd600;
+	background:#656565;
 	color:#ffffff;
 }
 .team-member .team-desc h4 {
@@ -605,7 +605,7 @@ blockquote p {
 	font-weight: bold;
 	line-height: 18px;
 	color: #ffffff;
-	background:#ffd600;
+	background:#656565;
 	width:40px;
 	height:40px;
 	line-height:40px;
@@ -736,7 +736,7 @@ opacity: .95;
 
 .view-profile {
 	padding:4px 10px;
-	background:#ffd600;
+	background:#656565;
 	margin-top:4px;
 	color:#ffffff !important;
 }
@@ -775,7 +775,7 @@ opacity: .95;
 	display: block;
 	padding: 11px 15px 7px;
 	color: #ffffff;
-	background-color: #4682B4;
+	background-color: #101113;
 }
 .toggle .toggle-title a i {
 	font-size: 22px;
