@@ -776,7 +776,7 @@ $(window).load(function(){
 			animation: "slide",
 			direction: "horizontal", 
 			slideshow: false,
-			slideshowSpeed: 3500,
+			slideshowSpeed: 5000,
 			animationDuration: 500,
 			directionNav: true,
 			controlNav: false,						
@@ -787,7 +787,7 @@ $(window).load(function(){
 			animation: "slide",
 			direction: "horizontal", 
 			slideshow: false,
-			slideshowSpeed: 3500,
+			slideshowSpeed: 5000,
 			animationDuration: 500,
 			directionNav: true,
 			controlNav: false
